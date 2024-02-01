@@ -89,21 +89,19 @@ console.log(Number.MAX_VALUE);
 
 console.log(Number.MIN_VALUE);
 
-
 /************ Boolean ************/
 
 // Boolean literal
-const b1 = true
-const b2 = false
+const b1 = true;
+const b2 = false;
 
 // Boolean constructor can indentify if the value true or false
 
 const b3 = Boolean(056);
-const b4 = Boolean('056');
-const b5 = Boolean('056.sdf');
+const b4 = Boolean("056");
+const b5 = Boolean("056.sdf");
 const b6 = Boolean(0);
-console.log(b3, b4, b5, b6)
-
+console.log(b3, b4, b5, b6);
 
 /************ Undefined vs Null ************/
 
@@ -112,10 +110,27 @@ console.log(b3, b4, b5, b6)
  * it is declared but not assigned any value
  */
 
-
 /**
  * Null => A variable with unknown value can store null.
  * if you expact any value we can fill it with null initially.
- * Null is a special type used as a absence of an object. 
+ * Null is a special type used as a absence of an object.
  * we are expecting an object in this sitution we can use null.
  */
+
+
+/************ Hexadecimal vs Octal ************/
+
+/**
+ * If we want write hexadecimal number in js we have to use (0x or 0X) before hexadecimal number
+ */
+
+
+const hex = 0xff
+console.log(hex) // 255
+
+/**
+ * If we want write Octal number in js we have to use (0) before hexadecimal number
+ */
+
+const oct = 0756
+console.log(oct) // 494
